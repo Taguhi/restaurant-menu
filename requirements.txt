@@ -1,0 +1,4 @@
+Django==2.2.26
+packaging==21.3
+djangorestframework==3.13.1
+django-rest-swagger==2.2.0
