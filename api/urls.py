@@ -7,5 +7,5 @@ schema_view = get_swagger_view(title='Restuarant API')
 
 urlpatterns = [
     url(r'^$', schema_view),
-    # url(r'restuarant/', include('api.restuarant.urls')),
+    url(r'restuarant/', include('api.restuarant.urls')),
 ]
